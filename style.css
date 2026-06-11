@@ -1,4 +1,11 @@
-body{background-color:rgb(255, 216, 230);
+body{
+  background-color:rgb(255, 216, 230);
+  display: flex;
+  align-items: center;    /* This is the magic line! It centers everything perfectly left-to-right */
+  text-align: center;     /* Ensures all your text sits in the middle instead of the left edge */
+  /*flex-direction: column; /* Stacks your elements vertically from top to bottom 
+  margin: 0; 
+  padding: 20px;          /* Gives your page a little breathing room on the edges */ 
 }
 header{
   font-family: 'Poppins', 'Inter', system-ui, Arial, sans-serif;
@@ -67,7 +74,8 @@ h3 {
   font-size:20px;
   color:rgb(192, 0, 0);
   margin:-100px auto 0;
-  
+  margin-top: -30px; 
+  margin-bottom: 10px; 
 }
 
 
