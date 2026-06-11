@@ -43,7 +43,7 @@ h2 {
   font-family: 'Poppins', 'Inter', system-ui, Arial, sans-serif;
   font-size: 20px;
   text-align: center;
-  margin: -120px auto 0;       
+  margin: -60px auto 0;       /*120-60*/
   font-weight: bold;
   color: rgb(0, 0, 0);
   display: block;
